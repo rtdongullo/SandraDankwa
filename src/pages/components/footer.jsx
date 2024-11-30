@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div id="contactUs">Footer</div>
   )
 }
 

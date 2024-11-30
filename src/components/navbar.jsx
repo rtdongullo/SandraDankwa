@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     // State to toggle the mobile menu
@@ -47,37 +48,82 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                {/* Navbar Links */}
+                {/* Navlinks for desktop view */}
                 <div className="hidden lg:flex space-x-6">
-                    <a href="#" className="text-yellow-600 hover:text-white font-semibold">
+                    <Link
+                        to="home"
+                        smooth={true}
+                        duration={500}
+                        className="text-yellow-600 hover:text-white font-semibold cursor-pointer">
                         Home
-                    </a>
-                    <a href="#" className="text-yellow-600 hover:text-white font-semibold">
+                    </Link>
+
+                    <Link
+                        to="aboutUs"
+                        smooth={true}
+                        duration={500}
+                        className="text-yellow-600 hover:text-white font-semibold cursor-pointer"
+                    >
                         About Us
-                    </a>
-                    <a href="#" className="text-yellow-600 hover:text-white font-semibold">
+                    </Link>
+
+                    <Link
+                        to="services"
+                        smooth={true}
+                        duration={500}
+                        className="text-yellow-600 hover:text-white font-semibold cursor-pointer"
+                    >
                         Services
-                    </a>
-                    <a href="#" className="text-yellow-600 hover:text-white font-semibold">
+                    </Link>
+
+                    <Link
+                        to="contactUs"
+                        smooth={true}
+                        duration={500}
+                        className="text-yellow-600 hover:text-white font-semibold cursor-pointer"
+                    >
                         Contact Us
-                    </a>
+                    </Link>
                 </div>
             </div>
 
             {/* Mobile Menu */}
             <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} bg-gray-800 p-4`}>
-                <a href="#" className="block text-white hover:text-gray-400 py-2">
+                <Link
+                    to="home"
+                    smooth={true}
+                    duration={500}
+                    className="block text-white hover:text-gray-400 py-2"
+                >
                     Home
-                </a>
-                <a href="#" className="block text-white hover:text-gray-400 py-2">
-                    About
-                </a>
-                <a href="#" className="block text-white hover:text-gray-400 py-2">
-                    Services
-                </a>
-                <a href="#" className="block text-white hover:text-gray-400 py-2">
+                </Link>
+
+                <Link
+                    to="aboutUs"
+                    smooth={true}
+                    duration={500}
+                    className="block text-white hover:text-gray-400 py-2"
+                >
+                    About Us
+                </Link>
+
+                <Link
+                    to="services"
+                    smooth={true}
+                    duration={500}
+                    className="block text-white hover:text-gray-400 py-2"
+                >
+                    Our Services
+                </Link>
+
+                <Link
+                    to="contactUs"
+                    smooth={true}
+                    duration={500}
+                    className="block text-white hover:text-gray-400 py-2"
+                >
                     Contact
-                </a>
+                </Link>
             </div>
         </nav>
     );

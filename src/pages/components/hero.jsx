@@ -2,7 +2,7 @@ import SoapHero from "../../assets/soapHero.jpg"
 
 const Hero = () => {
   return (
-    <div
+    <div id="home"
       className="relative w-full bg-cover bg-center bg-no-repeat px-4 sm:px-6 md:px-8 lg:px-12 py-6 md:py-8
     h-64 sm:h-80 md:h-[30rem] lg:h-[40rem] xl:h-screen
     flex flex-col justify-center items-center"

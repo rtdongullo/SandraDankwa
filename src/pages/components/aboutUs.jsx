@@ -7,7 +7,7 @@ import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons"
 
 const AboutUs = () => {
   return (
-    <div className="w-full bg-black px-4 sm:px-6 md:px-8 lg:px-12 py-6 md:py-8
+    <div id="aboutUs" className="w-full bg-black px-4 sm:px-6 md:px-8 lg:px-12 py-6 md:py-8
     h-auto
     flex flex-col lg:flex-row justify-center">
 
