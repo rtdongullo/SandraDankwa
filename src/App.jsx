@@ -1,21 +1,29 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import RootLayout from "./layout/rootLayout"
+import Index from "./pages"
+
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <RootLayout/>,
+
+    children:
+    [
+      {
+        index: true,
+        element: <Index/>
+      }
+    ]
+  }
+])
 
 function App() {
-  // const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <div className=" h-screen flex flex-col justify-center items-center">
-        <p className="font-bold text-6xl">
-          Sandra Dankwa
-        </p>
-        <p className="text-blue-800 font-semibold animate-pulse text-3xl">
-          Innovator of the year
-        </p>
-      </div>
+    <RouterProvider router = {router}/>
     </>
   )
 }
