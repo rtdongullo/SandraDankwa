@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons/faInstagramSquare"
 import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faFacebook } from "@fortawesome/free-brands-svg-icons/faFacebook"
+import { Link } from "react-scroll"
 
 const Footer = () => {
   return (
@@ -9,12 +10,13 @@ const Footer = () => {
       className="h-auto w-full flex flex-col lg:flex-row gap-x-5 px-4 sm:px-6 md:px-8 lg:px-12 py-6 md:py-8
     justify-center items-center bg-black">
 
-      <div className="flex-1 px-4 sm:px-6 flex flex-col text-yellow-600 text-xl gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4">
-        <span className="flex flex-row font-bold text-2xl">
+      <div className="flex-1 px-4 sm:justify-center sm:items-center lg:justify-start lg:items-start sm:px-6 flex flex-col text-yellow-600 
+      text-xl gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4">
+        <span className="flex justify-center items-center font-bold text-2xl sm:justify-center sm:items-center lg:justify-start lg:items-start">
           <a href="#">Sandra Dankwa</a>
         </span>
 
-        <span className="text-white text-sm">
+        <span className="text-white text-sm flex justify-center items-center sm:justify-center sm:items-center lg:justify-start lg:items-start">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae repellendus tempore provident magnam quibusdam, tenetur rem nesciunt suscipit, ut sed possimus adipisci eligendi harum, alias magni voluptatum modi consectetur.
         </span>
         <span className="text-white">
@@ -22,9 +24,10 @@ const Footer = () => {
         </span>
       </div>
 
-      <div className="flex-1 px-4 sm:px-6 flex flex-col justify-center items-center gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4">
+      <div className="flex-1 px-4 sm:px-6 flex flex-col justify-center items-center 
+      gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4 cursor-default">
         <span className="text-2xl font-bold text-yellow-600">Our Services</span>
-        <span className="text-white flex flex-col justify-center items-center gap-y-3">
+        <span className="text-white flex flex-col justify-center items-center lg:justify-start lg:items-start gap-y-3">
           <span className="hover:text-yellow-600 ">Customised Soap</span>
           <span className="hover:text-yellow-600 ">Bulk Liquid Soap</span>
           <span className="hover:text-yellow-600 ">Detergent</span>
@@ -32,12 +35,36 @@ const Footer = () => {
         </span>
       </div>
 
-      <div className="flex-1 px-4 mt-4 sm:px-6 flex flex-col justify-center items-center gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4">
+      <div className="flex-1 px-4 mt-4 sm:px-6 flex flex-col justify-center items-center gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4 cursor-pointer">
         <span className="text-2xl font-bold text-yellow-600">Useful Links</span>
-        <span className="text-white flex flex-col justify-center items-center gap-y-3">
-          <span className="text-white hover:text-yellow-600">Home</span>
-          <span className="text-white hover:text-yellow-600">About Us</span>
-          <span className="text-white hover:text-yellow-600">Services</span>
+        <span className="text-white flex flex-col justify-center items-center lg:justify-start lg:items-start gap-y-3">
+          <span className="text-white hover:text-yellow-600">
+            <Link
+              to="home"
+              smooth={true}
+              duration={500}>
+              Home
+            </Link>
+          </span>
+
+          <span className="text-white hover:text-yellow-600">
+            <Link
+              to="aboutUs"
+              smooth={true}
+              duration={500}>
+              About Us
+            </Link>
+          </span>
+
+          <span className="text-white hover:text-yellow-600">
+            <Link
+            to="services"
+            smooth={true}
+            duration={800}>
+            Services
+            </Link>
+            
+          </span>
 
           <span className="text-white flex flex-row gap-x-5 justify-end items-end">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">

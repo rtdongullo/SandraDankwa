@@ -54,6 +54,7 @@ const AboutUs = () => {
 
         </span>
       </div>
+      <span className="w-auto h-0.5 bg-white z-10"></span>
     </div>
   )
 }

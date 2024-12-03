@@ -48,7 +48,7 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                {/* Navlinks for desktop view */}
+                
                 <div className="hidden lg:flex space-x-6">
                     <Link
                         to="home"
@@ -87,7 +87,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* Mobile Menu */}
+            
             <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} bg-gray-800 p-4`}>
                 <Link
                     to="home"
