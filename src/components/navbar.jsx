@@ -11,12 +11,14 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed top-0 left-0 w-full bg-gray-800 z-50 p-4">
+        <nav className="fixed top-0 left-0 w-full bg-black z-50 p-4">
             <div className="w-full flex justify-between items-center">
-                {/* Logo */}
-                <div className="text-yellow-600 text-xl font-bold flex flex-row space-x-1">
-                    <a href="#">Sandra Dankwa</a>
-                    <span className="h-2 w-2 rounded-full mt-4  bg-white animate-pulse"></span>
+                
+                <div className="text-yellow-600 text-xl font-bold flex flex-col space-x-1">
+                    <span className="flex justify-center items-center">
+                        <a href="#">SanDan94</a>
+                    </span>
+                    <span className="text-white text-sm"> E N T E R P R I S E</span>
                 </div>
 
                 {/* Hamburger Menu (mobile) */}
@@ -48,7 +50,7 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                
+
                 <div className="hidden lg:flex space-x-6">
                     <Link
                         to="home"
@@ -87,8 +89,8 @@ const Navbar = () => {
                 </div>
             </div>
 
-            
-            <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} bg-gray-800 p-4`}>
+
+            <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} bg-slate-950 p-4`}>
                 <Link
                     to="home"
                     smooth={true}

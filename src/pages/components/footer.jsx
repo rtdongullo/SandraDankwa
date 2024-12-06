@@ -12,8 +12,8 @@ const Footer = () => {
 
       <div className="flex-1 px-4 sm:justify-center sm:items-center lg:justify-start lg:items-start sm:px-6 flex flex-col text-yellow-600 
       text-xl gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4">
-        <span className="flex justify-center items-center font-bold text-2xl sm:justify-center sm:items-center lg:justify-start lg:items-start">
-          <a href="#">Sandra Dankwa</a>
+        <span className="flex justify-center items-center font-bold text-3xl sm:justify-center sm:items-center lg:justify-start lg:items-start">
+          <a href="#">SanDan94</a>
         </span>
 
         <span className="text-white text-sm flex justify-center items-center sm:justify-center sm:items-center lg:justify-start lg:items-start">
@@ -26,18 +26,18 @@ const Footer = () => {
 
       <div className="flex-1 px-4 sm:px-6 flex flex-col justify-center items-center 
       gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4 cursor-default">
-        <span className="text-2xl font-bold text-yellow-600">Our Services</span>
-        <span className="text-white flex flex-col justify-center items-center lg:justify-start lg:items-start gap-y-3">
-          <span className="hover:text-yellow-600 ">Customised Soap</span>
-          <span className="hover:text-yellow-600 ">Bulk Liquid Soap</span>
-          <span className="hover:text-yellow-600 ">Detergent</span>
-          <span className="hover:text-yellow-600 ">Medicinal Soaps</span>
+        <span className="text-2xl font-bold text-yellow-600 flex lg:justify-start lg:items-start">Our Services</span>
+        <span className="text-white flex flex-col justify-center items-center lg:justify-center lg:items-center gap-y-3">
+          <span className="hover:text-yellow-600 ">Convenience Guaranteed</span>
+          <span className="hover:text-yellow-600 ">Ready-to-serve Cereals</span>
+          <span className="hover:text-yellow-600 ">The Student's Choice</span>
+          <span className="hover:text-yellow-600 ">Sugar Free</span>
         </span>
       </div>
 
       <div className="flex-1 px-4 mt-4 sm:px-6 flex flex-col justify-center items-center gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4 cursor-pointer">
         <span className="text-2xl font-bold text-yellow-600">Useful Links</span>
-        <span className="text-white flex flex-col justify-center items-center lg:justify-start lg:items-start gap-y-3">
+        <span className="text-white flex flex-col justify-center items-center lg:justify-center lg:items-center gap-y-3">
           <span className="text-white hover:text-yellow-600">
             <Link
               to="home"

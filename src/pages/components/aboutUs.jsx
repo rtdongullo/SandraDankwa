@@ -1,5 +1,5 @@
 import { faFacebook } from "@fortawesome/free-brands-svg-icons/faFacebook"
-import AboutImage from "../../assets/aboutImage.jpg"
+import CerealAbout from "../../assets/cerealAbout.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons/faInstagramSquare"
 import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons"
@@ -13,8 +13,8 @@ const AboutUs = () => {
 
       <div className="w-full lg:w-1/2 p-4 text-white flex justify-center items-center">
         <div className="w-full sm:w-[300px] md:w-[500px] lg:w-[600px] h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] 
-        border-4 border-yellow-600 rounded-lg overflow-hidden relative">
-          <img src={AboutImage} alt="About Us Section Image" className="object-cover w-full h-full" />
+        border-4 border-yellow-600 rounded-lg overflow-hidden relative flex justify-center items-center">
+          <img src={CerealAbout} alt="About Us Section Image" className="object-cover w-full h-full" />
         </div>
       </div>
 

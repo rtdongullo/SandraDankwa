@@ -1,6 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ServiceCard from "../../components/serviceCard";
-import { faJugDetergent, faPumpMedical, faSoap } from "@fortawesome/free-solid-svg-icons";
+import { faBottleWater } from "@fortawesome/free-solid-svg-icons/faBottleWater";
+import { faBowlFood } from "@fortawesome/free-solid-svg-icons/faBowlFood";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons/faGraduationCap";
+import { faPersonBreastfeeding } from "@fortawesome/free-solid-svg-icons/faPersonBreastfeeding";
 
 const Services = () => {
   return (
@@ -13,23 +16,23 @@ const Services = () => {
 
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 justify-center items-center">
         <ServiceCard
-          serviceIcon={<FontAwesomeIcon icon={faSoap}/>}
-          serviceHeader={"Customised Soap"}
+          serviceIcon={<FontAwesomeIcon icon={faBottleWater}/>}
+          serviceHeader={"Convenience Guaranteed"}
           serviceText={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laboriosam quod ullam? Labore, placeat. Quaerat, sequi soluta sed adipisci quia labore harum sint dolor, eligendi perferendis aperiam maiores placeat similique."}
         />
         <ServiceCard
-          serviceIcon={<FontAwesomeIcon icon={faPumpMedical}/>}
-          serviceHeader={"Bulk Liquid Soap"}
+          serviceIcon={<FontAwesomeIcon icon={faBowlFood}/>}
+          serviceHeader={"Ready-to-serve Cereals"}
           serviceText={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laboriosam quod ullam? Labore, placeat. Quaerat, sequi soluta sed adipisci quia labore harum sint dolor, eligendi perferendis aperiam maiores placeat similique."}
         />
         <ServiceCard
-          serviceIcon={<FontAwesomeIcon icon={faJugDetergent}/>}
-          serviceHeader={"Detergent"}
+          serviceIcon={<FontAwesomeIcon icon={faGraduationCap}/>}
+          serviceHeader={"The Student's Choice"}
           serviceText={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laboriosam quod ullam? Labore, placeat. Quaerat, sequi soluta sed adipisci quia labore harum sint dolor, eligendi perferendis aperiam maiores placeat similique."}
         />
         <ServiceCard
-        serviceIcon={<FontAwesomeIcon icon={faPumpMedical}/>}
-          serviceHeader={"Medicinal Soaps"}
+        serviceIcon={<FontAwesomeIcon icon={faPersonBreastfeeding}/>}
+          serviceHeader={"Sugar Free"}
           serviceText={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laboriosam quod ullam? Labore, placeat. Quaerat, sequi soluta sed adipisci quia labore harum sint dolor, eligendi perferendis aperiam maiores placeat similique."}
         />
         
