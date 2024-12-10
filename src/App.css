@@ -1,0 +1,78 @@
+body {
+    background-color: #000000;
+}
+
+.main {
+    margin-top: 10%;
+}
+
+.mySwiper {
+    width: 100%; /* Ensure the swiper takes 100% width for responsiveness */
+}
+
+.swiper-slide {
+    width: auto; /* Allow the slide to adjust based on content */
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin-bottom: 2rem; /* Vertical space between cards */
+    padding: 20px; /* Increase card size */
+}
+
+
+.testimonials-profile-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.testimonial-image {
+    width: 200px; /* Adjust image size */
+    height: 200px;
+    border: 3px solid #ca8a04;
+    border-radius: 50%;
+}
+
+
+.review-by {
+    color: #ca8a04;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+.head-p {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ffffff !important;
+    border: 2px solid #ca8a04 !important;
+    width: 30px !important;
+    height: 1px !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: #ffffff !important;
+    border: 2px solid #ca8a04 !important;
+    width: 30px !important;
+    height: 1px !important;
+}

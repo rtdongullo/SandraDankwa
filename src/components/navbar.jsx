@@ -90,7 +90,7 @@ const Navbar = () => {
             </div>
 
 
-            <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} bg-slate-950 p-4`}>
+            <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} bg-black p-4`}>
                 <Link
                     to="home"
                     smooth={true}

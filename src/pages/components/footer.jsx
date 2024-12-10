@@ -10,7 +10,7 @@ const Footer = () => {
       className="h-auto w-full flex flex-col lg:flex-row gap-x-5 px-4 sm:px-6 md:px-8 lg:px-12 py-6 md:py-8
     justify-center items-center bg-black">
 
-      <div className="flex-1 px-4 sm:justify-center sm:items-center lg:justify-start lg:items-start sm:px-6 flex flex-col text-yellow-600 
+      <div className="flex-1 px-4 sm:justify-center sm:items-center lg:justify-start lg:items-start sm:px-6 flex flex-col text-white 
       text-xl gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4">
         <span className="flex justify-center items-center font-bold text-3xl sm:justify-center sm:items-center lg:justify-start lg:items-start">
           <a href="#">SanDan94</a>
@@ -26,7 +26,7 @@ const Footer = () => {
 
       <div className="flex-1 px-4 sm:px-6 flex flex-col justify-center items-center 
       gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4 cursor-default">
-        <span className="text-2xl font-bold text-yellow-600 flex lg:justify-start lg:items-start">Our Services</span>
+        <span className="text-2xl font-bold text-white flex lg:justify-start lg:items-start">Our Services</span>
         <span className="text-white flex flex-col justify-center items-center lg:justify-center lg:items-center gap-y-3">
           <span className="hover:text-yellow-600 ">Convenience Guaranteed</span>
           <span className="hover:text-yellow-600 ">Ready-to-serve Cereals</span>
@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
 
       <div className="flex-1 px-4 mt-4 sm:px-6 flex flex-col justify-center items-center gap-y-4 sm:gap-y-4 md:gap-y-4 lg:gap-y-4 xl:gap-y-4 cursor-pointer">
-        <span className="text-2xl font-bold text-yellow-600">Useful Links</span>
+        <span className="text-2xl font-bold text-white">Useful Links</span>
         <span className="text-white flex flex-col justify-center items-center lg:justify-center lg:items-center gap-y-3">
           <span className="text-white hover:text-yellow-600">
             <Link
