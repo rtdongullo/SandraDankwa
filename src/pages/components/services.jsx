@@ -10,7 +10,7 @@ const Services = () => {
     <div id="services" className="w-full px-4 sm:px-6 md:px-8 lg:px-12 py-6 md:py-8 h-auto bg-[#08030e] flex flex-col justify-center items-center relative">
        
         <h1 className="text-3xl pb-7 sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#ca8a03]">
-          Our Services
+          Our Products
         </h1>
      
 

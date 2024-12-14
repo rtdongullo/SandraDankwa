@@ -75,7 +75,7 @@ const Navbar = () => {
                         duration={500}
                         className="text-yellow-600 hover:text-white font-semibold cursor-pointer"
                     >
-                        Services
+                        Products
                     </Link>
 
                     <Link
@@ -115,7 +115,7 @@ const Navbar = () => {
                     duration={500}
                     className="block text-white hover:text-gray-400 py-2"
                 >
-                    Our Services
+                    Our Products
                 </Link>
 
                 <Link

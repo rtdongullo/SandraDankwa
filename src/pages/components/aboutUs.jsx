@@ -1,8 +1,8 @@
 import { faFacebook } from "@fortawesome/free-brands-svg-icons/faFacebook"
-import CerealAbout from "../../assets/cerealAbout.jpg"
+import SandanAbout from "../../assets/sandanAbout.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons/faInstagramSquare"
-import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faTiktok } from "@fortawesome/free-brands-svg-icons/faTiktok"
 
 
 const AboutUs = () => {
@@ -14,7 +14,7 @@ const AboutUs = () => {
       <div className="w-full lg:w-1/2 p-4 text-white flex justify-center items-center">
         <div className="w-full sm:w-[300px] md:w-[500px] lg:w-[600px] h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] 
         border-4 border-yellow-600 rounded-lg overflow-hidden relative flex justify-center items-center">
-          <img src={CerealAbout} alt="About Us Section Image" className="object-cover w-full h-full" />
+          <img src={SandanAbout} alt="About Us Section Image" className="object-cover w-full h-full hover:scale-110 transition-all duration-300" />
         </div>
       </div>
 
@@ -39,7 +39,7 @@ const AboutUs = () => {
           </span>
 
           <span className="flex justify-center items-center gap-x-5 text-yellow-600">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://web.facebook.com/SanDanReadyCereals" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl hover:text-white transform transition-transform duration-200 hover:scale-110 " />
             </a>
 
@@ -47,8 +47,8 @@ const AboutUs = () => {
               <FontAwesomeIcon icon={faInstagramSquare} className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl hover:text-white transform transition-transform duration-200 hover:scale-110" />
             </a>
 
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faSquareXTwitter} className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl hover:text-white transform transition-transform duration-200 hover:scale-110" />
+            <a href="https://www.tiktok.com/@sandancereals" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faTiktok} className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl hover:text-white transform transition-transform duration-200 hover:scale-110" />
             </a>
           </span>
 
